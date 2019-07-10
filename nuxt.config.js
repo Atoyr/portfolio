@@ -22,12 +22,14 @@ export default {
   /*
   ** Global CSS
   */
-  css: [
+    css: [
+    'element-ui/lib/theme-chalk/index.css'
   ],
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '@/plugins/element-ui'
   ],
   /*
   ** Nuxt.js modules

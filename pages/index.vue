@@ -1,15 +1,21 @@
 <template>
   <div class="container">
-  <About />
+    <Images />
+    <About />
+    <Carrer />
   </div>
 </template>
 
 <script>
+import Images from '~/components/Images.vue'
 import About from '~/components/About.vue'
+import Carrer from '~/components/Carrer.vue'
 
 export default {
   components: {
-    About
+    Images,
+    About,
+    Carrer
   }
 }
 </script>
